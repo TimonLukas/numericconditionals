@@ -1,0 +1,24 @@
+{
+  "name": "numericconditionals",
+  "version": "1.0.0",
+  "description": "A small utility which can conditionally return data based on predefined conditions",
+  "main": "app.js",
+  "repository": "https://github.com/TimonLukas/numericconditionals.git",
+  "author": "Timon Lukas <timon.lukas3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "semistandard": "^11.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "ajv": "^5.2.0",
+    "is-number": "^3.0.0"
+  }
+}
