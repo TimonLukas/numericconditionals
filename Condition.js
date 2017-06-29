@@ -42,7 +42,5 @@ module.exports = class Condition {
       case '=':
         return Number(value) === this.value;
     }
-
-    return false;
   }
 };

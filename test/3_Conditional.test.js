@@ -28,7 +28,7 @@ describe('Conditonal', () => {
 
       wrapForThrowing(() => {
         const conditonal = new Conditional('asdf');
-      });
+      }).should.throw();
 
       done();
     });
