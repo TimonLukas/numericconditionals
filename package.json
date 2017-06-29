@@ -1,6 +1,6 @@
 {
   "name": "numericconditionals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small utility which can conditionally return data based on predefined conditions",
   "main": "app.js",
   "repository": "https://github.com/TimonLukas/numericconditionals.git",
